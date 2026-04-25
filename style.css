@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial;
-  background: url("images/fondo.png") no-repeat center/cover;
+  background: red;
   color: white;
 }
 .logo {
@@ -14,9 +14,6 @@ body {
     0 0 20px #b266ff,
     0 0 30px #8000ff;
   animation: brillo 2s infinite alternate;
-}
-body {
-  background: red;
 }
 /* Animación suave */
 @keyframes brillo {
