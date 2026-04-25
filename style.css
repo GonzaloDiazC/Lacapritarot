@@ -4,6 +4,7 @@ body {
   background: url("images/fondo.png") no-repeat center/cover;
   color: white;
 }
+
 .logo {
   font-size: 36px;
   font-weight: bold;
@@ -15,7 +16,7 @@ body {
     0 0 30px #8000ff;
   animation: brillo 2s infinite alternate;
 }
-/* Animación suave */
+
 @keyframes brillo {
   from {
     text-shadow: 
@@ -30,7 +31,6 @@ body {
   }
 }
 
-/* TITULO PRINCIPAL */
 .titulo-mistico {
   text-align: center;
   width: 100%;
@@ -40,7 +40,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* DESCRIPCIÓN */
 .descripcion {
   max-width: 600px;
   margin: auto;
@@ -53,7 +52,6 @@ body {
   text-align: center;
 }
 
-/* HERO */
 .hero {
   min-height: 60vh;
   background: rgba(0, 0, 0, 0.6);
@@ -66,7 +64,6 @@ body {
   justify-content: center;
 }
 
-/* SECCIONES */
 .servicios {
   margin-top: 60px;
   text-align: center;
@@ -91,7 +88,6 @@ body {
   margin: 0 auto 10px auto;
 }
 
-/* CONTENEDORES (GRILLA GENERAL) */
 .contenedor-servicios,
 .velones-container {
   display: grid;
@@ -100,7 +96,6 @@ body {
   padding: 20px;
 }
 
-/* TARJETAS GENERALES */
 .card,
 .velon-card {
   background: rgba(0, 0, 0, 0.7);
@@ -116,7 +111,6 @@ body {
   box-shadow: 0 0 15px purple;
 }
 
-/* TITULOS */
 .card h3,
 .velon-card h3 {
   text-align: center;
@@ -125,7 +119,6 @@ body {
   font-size: 22px;
 }
 
-/* LISTAS */
 .card ul,
 .velon-card ul {
   text-align: left;
@@ -138,7 +131,6 @@ body {
   font-size: 14px;
 }
 
-/* PRECIOS */
 .precio {
   color: #bb86fc;
   font-weight: bold;
@@ -146,7 +138,6 @@ body {
   text-align: center;
 }
 
-/* TEXTO IMPORTANTE */
 .importante {
   margin-top: 10px;
   font-weight: bold;
@@ -154,7 +145,6 @@ body {
   text-align: center;
 }
 
-/* 🔥 DESTACADAS (PRIMERA FILA TAROT) */
 .destacada {
   order: -1;
 }
@@ -166,74 +156,6 @@ header {
   text-align: center;
 }
 
-nav a {
-  color: violet;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-/* SECCIONES GENERALES */
-section {
-  padding: 40px;
-  text-align: center;
-}
-
-/* CURSOS */
-
-.bloqueado {
-  filter: blur(4px);
-}
-
-.activo {
-  filter: none;
-  background: rgba(0,0,0,0.6);
-}
-
-/* BOTONES */
-button {
-  margin-top: 10px;
-  padding: 10px;
-  background: purple;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-/* FORMULARIOS */
-form input,
-form select {
-  display: block;
-  margin: 10px auto;
-  padding: 10px;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: rgba(0,0,0,0.7);
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  .contenedor-servicios,
-  .velones-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .contenedor-servicios,
-  .velones-container {
-    grid-template-columns: 1fr;
-  }
-  /* Para celulares */
-@media (max-width: 768px) {
-  .descripcion {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
 nav {
   display: flex;
   justify-content: center;
@@ -252,18 +174,20 @@ nav a:hover {
   color: #ffffff;
   text-shadow: 0 0 10px #d4a5ff;
 }
+
+/* SECCIONES */
+section {
+  padding: 40px;
+  text-align: center;
 }
+
+/* CURSOS */
 #cursos {
   padding: 60px 20px;
   text-align: center;
 }
 
-.cursos-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
+/* CONTACTO */
 .contacto-box {
   background: rgba(0, 0, 0, 0.7);
   border: 1px solid purple;
@@ -286,7 +210,6 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* BOTÓN WHATSAPP */
 .btn-whatsapp {
   display: inline-block;
   margin-top: 20px;
@@ -303,4 +226,60 @@ nav a:hover {
 .btn-whatsapp:hover {
   transform: scale(1.05);
   box-shadow: 0 0 25px rgba(37, 211, 102, 0.8);
+}
+
+/* BOTONES */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* FORMULARIOS */
+form input,
+form select {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+/* RESPONSIVE CORREGIDO */
+@media (max-width: 768px) {
+  .contenedor-servicios,
+  .velones-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .descripcion {
+    padding: 0 15px;
+    font-size: 18px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .titulo-mistico {
+    font-size: 24px;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contenedor-servicios,
+  .velones-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.7);
 }
