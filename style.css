@@ -5,6 +5,7 @@ body {
   color: white;
 }
 
+/* LOGO */
 .logo {
   font-size: 36px;
   font-weight: bold;
@@ -31,6 +32,7 @@ body {
   }
 }
 
+/* TITULOS */
 .titulo-mistico {
   text-align: center;
   width: 100%;
@@ -40,6 +42,7 @@ body {
   margin-bottom: 20px;
 }
 
+/* DESCRIPCIÓN */
 .descripcion {
   max-width: 600px;
   margin: auto;
@@ -52,25 +55,13 @@ body {
   text-align: center;
 }
 
-.hero {
-  min-height: 60vh;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 80px 20px;
-  border-radius: 15px;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* SECCIONES */
+section {
+  padding: 40px;
 }
 
-.servicios {
-  margin-top: 60px;
-  text-align: center;
-}
-
+/* SUBTITULOS */
 .subtitulo {
-  grid-column: 1 / -1;
   text-align: center;
   color: #c77dff;
   font-size: 22px;
@@ -88,6 +79,7 @@ body {
   margin: 0 auto 10px auto;
 }
 
+/* CONTENEDORES */
 .contenedor-servicios,
 .velones-container {
   display: grid;
@@ -96,6 +88,7 @@ body {
   padding: 20px;
 }
 
+/* CARDS */
 .card,
 .velon-card {
   background: rgba(0, 0, 0, 0.7);
@@ -119,18 +112,25 @@ body {
   font-size: 22px;
 }
 
+/* LISTAS CORREGIDAS (ESTO ARREGLA LOS PUNTOS) */
 .card ul,
-.velon-card ul {
+.velon-card ul,
+.columna ul {
   text-align: left;
-  padding-left: 15px;
-  margin-top: 10px;
+  padding-left: 20px;
+  margin: 10px auto;
+  display: inline-block;
 }
 
-.card li {
+.card li,
+.velon-card li,
+.columna li {
+  text-align: left;
   margin-bottom: 5px;
   font-size: 14px;
 }
 
+/* PRECIOS */
 .precio {
   color: #bb86fc;
   font-weight: bold;
@@ -138,15 +138,12 @@ body {
   text-align: center;
 }
 
+/* IMPORTANTE */
 .importante {
   margin-top: 10px;
   font-weight: bold;
   color: #ff4d4d;
   text-align: center;
-}
-
-.destacada {
-  order: -1;
 }
 
 /* HEADER */
@@ -173,18 +170,6 @@ nav a {
 nav a:hover {
   color: #ffffff;
   text-shadow: 0 0 10px #d4a5ff;
-}
-
-/* SECCIONES */
-section {
-  padding: 40px;
-  text-align: center;
-}
-
-/* CURSOS */
-#cursos {
-  padding: 60px 20px;
-  text-align: center;
 }
 
 /* CONTACTO */
@@ -219,13 +204,11 @@ section {
   text-decoration: none;
   border-radius: 30px;
   font-weight: bold;
-  box-shadow: 0 0 15px rgba(37, 211, 102, 0.5);
   transition: 0.3s;
 }
 
 .btn-whatsapp:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 25px rgba(37, 211, 102, 0.8);
 }
 
 /* BOTONES */
@@ -282,65 +265,4 @@ footer {
   text-align: center;
   padding: 20px;
   background: rgba(0,0,0,0.7);
-}
-.info-comparativa {
-  margin-top: 40px;
-}
-
-.comparativa-box {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.columna {
-  background: rgba(0, 0, 0, 0.7);
-  border: 1px solid purple;
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 0 15px rgba(128, 0, 255, 0.3);
-  transition: 0.3s;
-}
-
-.columna:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 25px rgba(128, 0, 255, 0.6);
-}
-
-.columna h3 {
-  text-align: center;
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-
-.tag {
-  text-align: center;
-  color: #d4a5ff;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.columna ul {
-  text-align: left;
-  padding-left: 20px;
-}
-
-.columna li {
-  margin-bottom: 6px;
-  font-size: 14px;
-}
-
-.nota {
-  margin-top: 15px;
-  font-size: 14px;
-  color: #f5e6ff;
-  text-align: center;
-  font-style: italic;
-}
-
-.importante-final {
-  font-weight: bold;
-  color: #c77dff;
-  margin-top: 20px;
 }
