@@ -283,3 +283,64 @@ footer {
   padding: 20px;
   background: rgba(0,0,0,0.7);
 }
+.info-comparativa {
+  margin-top: 40px;
+}
+
+.comparativa-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.columna {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid purple;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(128, 0, 255, 0.3);
+  transition: 0.3s;
+}
+
+.columna:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(128, 0, 255, 0.6);
+}
+
+.columna h3 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  text-align: center;
+  color: #d4a5ff;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.columna ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.columna li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.nota {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #f5e6ff;
+  text-align: center;
+  font-style: italic;
+}
+
+.importante-final {
+  font-weight: bold;
+  color: #c77dff;
+  margin-top: 20px;
+}
