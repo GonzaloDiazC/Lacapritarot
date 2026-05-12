@@ -1,38 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LaCapriTarot</title>
 
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q0EBPYEEHQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("js", new Date());
-    gtag("config", "G-Q0EBPYEEHQ");
-  </script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <header class="header">
   <div class="brand">
-    <img src="logo.jpg" alt="Logo LaCapriTarot">
+    <img src="logo.jpg" alt="LaCapriTarot">
     <h1>✨LaCapriTarot✨</h1>
   </div>
 
-  <button class="menu-btn" id="menuBtn">☰</button>
-
-  <nav class="nav" id="nav">
+  <nav class="nav">
     <a href="#inicio">Inicio</a>
-    <a href="#info">Información</a>
     <a href="#trabajos">Trabajos</a>
-    <a href="#tarot">Tarot</a>
-    <a href="#contacto" class="nav-btn">Reservar</a>
+    <a href="#tarot">Cursos</a>
+    <a href="#contacto">Contacto</a>
+    <a href="https://wa.me/5493813462047" target="_blank" class="nav-btn">Reservar por WhatsApp</a>
   </nav>
 </header>
 
@@ -40,21 +30,14 @@
 
 <section class="hero" id="inicio">
   <div class="hero-text">
-    <span class="label">✦ Bienvenidos ✦</span>
-
+    <span class="label">✦ BIENVENIDOS ✦</span>
     <h2>Consultantes y Aprendices</h2>
 
-    <p>
-      Bienvenid@ a este espacio energético donde vas a poder encontrar claridad, guía y transformación.
-    </p>
+    <p>Bienvenid@ a este espacio energético donde vas a poder encontrar claridad, guía y transformación.</p>
 
-    <p>
-      Soy Camila, dueña de <strong>LaCapriTarot</strong>, y a través del tarot y distintos trabajos energéticos acompaño procesos personales para ayudarte a destrabar aquello que no te permite avanzar.
-    </p>
+    <p>Soy Camila, dueña de LaCapriTarot, y a través del tarot y distintos trabajos energéticos acompaño procesos personales, ayudándote a entender lo que estás viviendo y a destrabar aquello que no te permite avanzar.</p>
 
-    <a href="https://wa.me/5493813462047" target="_blank" class="btn">
-      💬 Reservar por WhatsApp
-    </a>
+    <a class="btn" href="https://wa.me/5493813462047" target="_blank">☏ Reservar por WhatsApp</a>
   </div>
 
   <div class="hero-logo">
@@ -71,42 +54,38 @@
   </p>
 
   <div class="info-grid">
-
     <div class="info-card">
       <div class="info-content">
-        <h3>🕯️ VELA</h3>
-        <span>Energía rápida y puntual</span>
+        <h3>🕯️ VELA <span>(larga)</span></h3>
+        <p class="info-sub">Energía rápida y puntual</p>
         <ul>
           <li>Intenciones simples del día a día.</li>
           <li>Pedidos suaves o generales.</li>
           <li>Trabajos livianos.</li>
           <li>Mantener la energía en movimiento.</li>
         </ul>
+        <p class="info-note">Actúa de forma rápida, pero con efectos más cortos en el tiempo.</p>
       </div>
-
-      <img src="vela-izquierda.png" alt="Vela larga" class="vela-img vela-larga">
+      <img src="vela-izquierda.png" class="vela-img vela-larga" alt="Vela">
     </div>
 
     <div class="info-card">
       <div class="info-content">
         <h3>🔥 VELÓN</h3>
-        <span>Energía intensa y sostenida</span>
+        <p class="info-sub">Energía intensa y sostenida</p>
         <ul>
           <li>Bloqueos o situaciones estancadas.</li>
           <li>Rituales profundos.</li>
           <li>Cambios importantes.</li>
           <li>Trabajos energéticos intensos.</li>
         </ul>
+        <p class="info-note">Actúa de forma más lenta, pero con mayor profundidad y duración.</p>
       </div>
-
-      <img src="vela-derecha.png" alt="Velón" class="vela-img vela-velon">
+      <img src="vela-derecha.png" class="vela-img vela-velon" alt="Velón">
     </div>
-
   </div>
 
-  <p class="info-final">
-    ✦ Ambos elementos son efectivos. La diferencia está en la intensidad y duración del trabajo energético. ✦
-  </p>
+  <p class="info-final">✦ Ambos elementos son efectivos. La diferencia está en la intensidad y duración del trabajo energético. ✦</p>
 </section>
 
 <section class="trabajos" id="trabajos">
@@ -114,225 +93,58 @@
   <h3 class="mini-title">Rituales</h3>
 
   <div class="cards-grid">
-
-    <div class="card" data-titulo="Ritual de Limpieza Energética" data-precio="$28.000" data-texto="Primero se realiza un testeo a través de las cartas para saber cómo estás fluyendo energéticamente, detectar cargas, trabajos o entidades pegadas y determinar cuántos días es necesario realizar la limpieza. Luego se realiza la limpieza energética completa. Todo va incluido en el precio.">
-      <div class="icon icon-limpieza"></div>
-      <h3>Limpieza Energética</h3>
-      <p>$28.000</p>
-    </div>
-
-    <div class="card" data-titulo="Ritual de Abre Caminos" data-precio="$20.000" data-texto="Si te sentís estancad@ en el trabajo, si las oportunidades no llegan o sentís que no estás fluyendo bien en distintos aspectos de tu vida, este ritual ayuda a destrabar y activar tu camino.">
-      <div class="icon icon-abre"></div>
-      <h3>Abre Caminos</h3>
-      <p>$20.000</p>
-    </div>
-
-    <div class="card" data-titulo="Ritual de Limpieza de Vínculos" data-precio="$24.000" data-texto="Las limpiezas energéticas de pareja armonizan y liberan la energía compartida dentro de un vínculo. Recomendado cuando la relación se siente pesada, hay discusiones sin sentido o la energía entre ambos cambió.">
-      <div class="icon icon-vinculos"></div>
-      <h3>Limpieza de Vínculos</h3>
-      <p>$24.000</p>
-    </div>
-
-    <div class="card" data-titulo="Ritual de Endulzamiento" data-precio="$22.000" data-texto="El endulzamiento es un trabajo energético positivo que no obliga ni manipula a la persona. Su función es suavizar energías y favorecer una conexión más armoniosa. No es un amarre.">
-      <div class="icon icon-endulzamiento"></div>
-      <h3>Endulzamiento</h3>
-      <p>$22.000</p>
-    </div>
-
-    <div class="card" data-titulo="Ritual de Abundancia" data-precio="$18.000" data-texto="Este ritual trabaja sobre la energía del dinero y la prosperidad. Ayuda a atraer clientes, aumentar ingresos y potenciar el crecimiento económico.">
-      <div class="icon icon-abundancia"></div>
-      <h3>Abundancia</h3>
-      <p>$18.000</p>
-    </div>
-
-    <div class="card" data-titulo="Ritual de Estudio" data-precio="$17.000" data-texto="Este ritual trabaja sobre tu enfoque y rendimiento a la hora de estudiar. Favorece la predisposición al estudio, mejora la retención de información y facilita la comprensión de los contenidos.">
-      <div class="icon icon-estudio"></div>
-      <h3>Estudio</h3>
-      <p>$17.000</p>
-    </div>
-
-    <div class="card" data-titulo="Ritual de Protección" data-precio="$16.000" data-texto="Este ritual trabaja la protección espiritual y energética, ayudando a resguardarte de energías negativas para que no afecten tu bienestar.">
-      <div class="icon icon-proteccion"></div>
-      <h3>Protección</h3>
-      <p>$16.000</p>
-    </div>
-
-    <div class="card" data-titulo="Ritual de Corte de Lazos" data-precio="$24.000" data-texto="Este ritual ayuda a desprenderte de una persona, vínculo o situación que ya no querés sostener en tu vida. Permite cortar lazos energéticos y avanzar con mayor claridad.">
-      <div class="icon icon-corte"></div>
-      <h3>Corte de Lazos</h3>
-      <p>$24.000</p>
-    </div>
-
-    <div class="card" data-titulo="Ritual de Retorno de Parejas" data-precio="$24.000" data-texto="El ritual de retorno se realiza cuando existe un lazo real entre dos personas y se busca reactivar ese vínculo. No fuerza voluntades ni manipula decisiones. Solo fluye si hay sentimientos genuinos y conexión viva.">
-      <div class="icon icon-retorno"></div>
-      <h3>Retorno de Parejas</h3>
-      <p>$24.000</p>
-    </div>
-
-    <div class="card" data-titulo="Ritual de Sanación de Pareja" data-precio="$24.000" data-texto="Este ritual está enfocado en parejas que necesitan sanar el vínculo, trabajando confianza, predisposición y paz emocional. También puede realizarse con una ex pareja, pero su objetivo principal es la sanación.">
-      <div class="icon icon-pareja"></div>
-      <h3>Sanación de Pareja</h3>
-      <p>$24.000</p>
-    </div>
-
-    <div class="card" data-titulo="Ritual de Sanación Personal" data-precio="$20.000" data-texto="Este trabajo está enfocado en aquello que cuesta sanar o todavía no lograste resolver a nivel emocional o energético. Ayuda a transitar el proceso de sanación de una manera más llevadera.">
-      <div class="icon icon-sanacion"></div>
-      <h3>Sanación Personal</h3>
-      <p>$20.000</p>
-    </div>
-
-  </div>
-
-  <h3 class="mini-title">Rituales con Velones</h3>
-
-  <div class="cards-grid">
-
-    <div class="card" data-titulo="Velón Pareja Entrelazada" data-precio="$30.000" data-texto="Funciona como retorno y endulzamiento. Está intencionado para trabajar la energía del amor, la conexión y el acercamiento emocional. Potencia cariño, comunicación y vínculo.">
-      <div class="icon icon-pareja"></div>
-      <h3>Velón Pareja Entrelazada</h3>
-      <p>$30.000</p>
-    </div>
-
-    <div class="card" data-titulo="Velón Moneda" data-precio="$30.000" data-texto="Este velón está intencionado para activar la energía del dinero, la prosperidad y el crecimiento. Ayuda a atraer dinero, ventas, clientes y estabilidad económica.">
-      <div class="icon icon-moneda"></div>
-      <h3>Velón Moneda</h3>
-      <p>$30.000</p>
-    </div>
-
-    <div class="card" data-titulo="Velón Casa" data-precio="$35.000" data-texto="Este velón está intencionado para limpiar, armonizar y proteger la energía del hogar. Ideal para ambientes pesados, mudanzas o después de conflictos.">
-      <div class="icon icon-casa"></div>
-      <h3>Velón Casa</h3>
-      <p>$35.000</p>
-    </div>
-
-    <div class="card" data-titulo="Velón Tijera" data-precio="$30.000" data-texto="Este velón está intencionado para cortar y liberar todo aquello que bloquea tu camino. Corta lazos negativos, energías densas, bloqueos emocionales y económicos.">
-      <div class="icon icon-tijera"></div>
-      <h3>Velón Tijera</h3>
-      <p>$30.000</p>
-    </div>
-
-    <div class="card" data-titulo="Velón Llave" data-precio="$30.000" data-texto="Trabaja sobre bloqueos energéticos que impiden avanzar. Ayuda a destrabar dinero, trabajo, vínculos, proyectos y nuevas oportunidades.">
-      <div class="icon icon-llave"></div>
-      <h3>Velón Llave</h3>
-      <p>$30.000</p>
-    </div>
-
+    <div class="card" data-servicio="limpieza"><img src="icon-limpieza.png"><h3>Limpieza Energética</h3><p>$28.000</p></div>
+    <div class="card" data-servicio="abre"><img src="icon-abre.png"><h3>Abre Caminos</h3><p>$20.000</p></div>
+    <div class="card" data-servicio="vinculos"><img src="icon-vinculos.png"><h3>Limpieza de Vínculos</h3><p>$24.000</p></div>
+    <div class="card" data-servicio="endulzamiento"><img src="icon-endulzamiento.png"><h3>Endulzamiento</h3><p>$22.000</p></div>
+    <div class="card" data-servicio="abundancia"><img src="icon-abundancia.png"><h3>Abundancia</h3><p>$18.000</p></div>
+    <div class="card" data-servicio="estudio"><img src="icon-estudio.png"><h3>Estudio</h3><p>$17.000</p></div>
+    <div class="card" data-servicio="proteccion"><img src="icon-proteccion.png"><h3>Protección</h3><p>$16.000</p></div>
+    <div class="card" data-servicio="corte"><img src="icon-corte.png"><h3>Corte de Lazos</h3><p>$24.000</p></div>
+    <div class="card" data-servicio="retorno"><img src="icon-retorno.png"><h3>Retorno de Parejas</h3><p>$24.000</p></div>
+    <div class="card" data-servicio="sanacion"><img src="icon-sanacion.png"><h3>Sanación Personal</h3><p>$20.000</p></div>
   </div>
 </section>
 
 <section class="trabajos" id="tarot">
   <h2 class="section-title">Lecturas de Tarot</h2>
 
-  <div class="cards-grid">
-
-    <div class="card destacada" data-titulo="Precios por Preguntas" data-precio="Desde $4.500" data-texto="1 pregunta: $4.500. 2 preguntas: $7.000. 3 preguntas: $9.000. 4 preguntas: $11.000. 7 preguntas: $13.000. Importante: salud y embarazos no se ven sin excepción.">
-      <h3>Preguntas</h3>
-      <p>Desde $4.500</p>
-    </div>
-
-    <div class="card" data-titulo="Lectura General" data-precio="$18.000" data-texto="Se analizan distintos aspectos de tu vida: amor, trabajo, estudios, proyectos, energías y cualquier tema específico que quieras consultar.">
-      <h3>Lectura General</h3>
-      <p>$18.000</p>
-    </div>
-
-    <div class="card" data-titulo="Contacto Cero" data-precio="$9.000" data-texto="Para analizar pensamientos, emociones y energías disponibles en un vínculo sin contacto. Incluye consejo del oráculo y pregunta a elección.">
-      <h3>Contacto Cero</h3>
-      <p>$9.000</p>
-    </div>
-
-    <div class="card" data-titulo="Buscando el Amor" data-precio="$8.000" data-texto="Analiza las energías disponibles en el amor, posibles vínculos nuevos y qué heridas o actitudes conviene sanar.">
-      <h3>Buscando el Amor</h3>
-      <p>$8.000</p>
-    </div>
-
-    <div class="card" data-titulo="Vínculos" data-precio="$10.000" data-texto="Analiza las energías actuales del vínculo para comprender qué siente, qué piensa y cómo puede evolucionar.">
-      <h3>Vínculos</h3>
-      <p>$10.000</p>
-    </div>
-
-    <div class="card" data-titulo="Ex Pareja" data-precio="$10.000" data-texto="Enfocada en entender energías, sentimientos y posible evolución con una ex pareja.">
-      <h3>Ex Pareja</h3>
-      <p>$10.000</p>
-    </div>
-
-    <div class="card" data-titulo="Energía y Entorno" data-precio="$8.000" data-texto="Analiza tu estado energético y el entorno que te rodea, ayudando a detectar influencias, bloqueos y el flujo de tu energía.">
-      <h3>Energía y Entorno</h3>
-      <p>$8.000</p>
-    </div>
-
-    <div class="card" data-titulo="Casi Algo" data-precio="$10.000" data-texto="Enfocada en vínculos ambiguos o en proceso, para entender qué está pasando realmente entre vos y esa persona.">
-      <h3>Casi Algo</h3>
-      <p>$10.000</p>
-    </div>
-
-    <div class="card" data-titulo="Encaminarme" data-precio="$7.500" data-texto="Pensada para quienes se encuentran entre dos o más opciones y no saben qué camino elegir. El tarot brinda una visión más amplia sobre las posibles consecuencias.">
-      <h3>Encaminarme</h3>
-      <p>$7.500</p>
-    </div>
-
+  <div class="cards-grid tarot-grid">
+    <div class="card" data-servicio="preguntas"><h3>Preguntas</h3><p>Desde $4.500</p></div>
+    <div class="card" data-servicio="general"><h3>Lectura General</h3><p>$18.000</p></div>
+    <div class="card" data-servicio="contacto"><h3>Contacto Cero</h3><p>$9.000</p></div>
+    <div class="card" data-servicio="amor"><h3>Buscando el Amor</h3><p>$8.000</p></div>
+    <div class="card" data-servicio="lectura-vinculos"><h3>Vínculos</h3><p>$10.000</p></div>
+    <div class="card" data-servicio="ex"><h3>Ex Pareja</h3><p>$10.000</p></div>
+    <div class="card" data-servicio="energia"><h3>Energía y Entorno</h3><p>$8.000</p></div>
+    <div class="card" data-servicio="casi"><h3>Casi Algo</h3><p>$10.000</p></div>
+    <div class="card" data-servicio="encaminarme"><h3>Encaminarme</h3><p>$7.500</p></div>
   </div>
 </section>
 
 <section class="contacto" id="contacto">
   <h2 class="section-title">Reservá tu consulta</h2>
-
   <div class="contact-box">
     <p>📸 Instagram: <strong>@lacapritarot</strong></p>
     <p>📞 WhatsApp: <strong>+54 9 381 346-2047</strong></p>
-
-    <a href="https://wa.me/5493813462047" target="_blank" class="btn">
-      💬 Hablar por WhatsApp
-    </a>
+    <a href="https://wa.me/5493813462047" target="_blank" class="btn">💬 Hablar por WhatsApp</a>
   </div>
 </section>
 
 </main>
 
-<a href="https://wa.me/5493813462047" target="_blank" class="whatsapp">💬</a>
+<a href="https://wa.me/5493813462047" target="_blank" class="whatsapp">☏</a>
 
 <div class="modal" id="modal">
   <div class="modal-content">
     <button class="cerrar" id="cerrarModal">×</button>
     <h2 id="modalTitulo"></h2>
     <p class="precio-modal" id="modalPrecio"></p>
-    <p id="modalTexto"></p>
-    <a href="https://wa.me/5493813462047" target="_blank" class="btn modal-btn">
-      Consultar por WhatsApp
-    </a>
+    <div id="modalTexto"></div>
+    <a href="https://wa.me/5493813462047" target="_blank" class="btn modal-btn">Consultar por WhatsApp</a>
   </div>
 </div>
 
-<script>
-const menuBtn = document.getElementById("menuBtn");
-const nav = document.getElementById("nav");
-
-menuBtn.addEventListener("click", () => {
-  nav.classList.toggle("active");
-});
-
-const modal = document.getElementById("modal");
-const modalTitulo = document.getElementById("modalTitulo");
-const modalPrecio = document.getElementById("modalPrecio");
-const modalTexto = document.getElementById("modalTexto");
-const cerrarModal = document.getElementById("cerrarModal");
-
-document.querySelectorAll(".card").forEach(card => {
-  card.addEventListener("click", () => {
-    modalTitulo.textContent = card.dataset.titulo || card.querySelector("h3").textContent;
-    modalPrecio.textContent = card.dataset.precio || "";
-    modalTexto.textContent = card.dataset.texto || "Consultá por WhatsApp para recibir más información.";
-    modal.classList.add("activo");
-  });
-});
-
-cerrarModal.addEventListener("click", () => {
-  modal.classList.remove("activo");
-});
-
-modal.addEventListener("click", e => {
-  if (e.target === modal) modal.classList.remove("activo");
-});
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
