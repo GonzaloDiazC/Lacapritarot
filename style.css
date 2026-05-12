@@ -500,7 +500,15 @@ section {
   }
 
   .hero-logo {
-    display: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .hero-logo img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
   }
 
   .cards-grid {
