@@ -1,237 +1,117 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LaCapriTarot</title>
-
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaCapriTarot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@300;500;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- HEADER -->
 <header class="header">
-
     <div class="logo-area">
         <img src="logo.png" alt="LaCapriTarot logo">
-        <h1 class="logo-text">✨LaCapriTarot✨</h1>
+        <h1 class="logo-text">LaCapriTarot</h1>
     </div>
-
     <nav>
         <a href="#inicio">Inicio</a>
-        <a href="#info">Información</a>
         <a href="#trabajos">Trabajos</a>
-        <a href="#tarot">Tarot</a>
+        <a href="#cursos">Cursos</a>
         <a href="#contacto">Contacto</a>
     </nav>
-
     <a href="https://wa.me/5493813462047" class="btn-header" target="_blank">
-        Reservar por WhatsApp
+        <span class="icon-wa">✆</span> Reservar por WhatsApp
     </a>
-
 </header>
 
-<!-- HERO -->
-<section class="hero" id="inicio">
-
-    <div class="hero-text">
-        <span>✦ BIENVENIDOS ✦</span>
-
-        <h1>Consultantes y Aprendices</h1>
-
-        <p>
-            Bienvenid@ a este espacio energético donde vas a encontrar claridad,
-            guía y transformación.
-        </p>
-
-        <p>
-            Soy Camila, dueña de LaCapriTarot y acompaño procesos personales
-            mediante tarot y trabajos energéticos.
-        </p>
-
-        <a href="https://wa.me/5493813462047"
-           class="hero-btn"
-           target="_blank">
-            💬 Reservar por WhatsApp
-        </a>
-    </div>
-
-    <div class="hero-logo">
-        <img src="logo-central.png" alt="Logo principal LaCapriTarot">
-    </div>
-
-</section>
-
-<!-- LUNAS -->
-<div class="lunas">
-🌑 🌒 🌓 🌔 🌕 🌖 🌗 🌘
-</div>
-
-<!-- INFORMACION -->
-<section class="info-box" id="info">
-
-    <h2 class="section-title">Información Importante</h2>
-
-    <div class="info-grid">
-
-        <div class="info-card">
-            <h3>🕯️ VELA (larga)</h3>
-            <p>Energía rápida y puntual</p>
-
-            <ul>
-                <li>Pedidos suaves</li>
-                <li>Trabajos livianos</li>
-                <li>Resultados rápidos</li>
-            </ul>
-
-            <img src="vela-izquierda.png" alt="">
+<main>
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="welcome-text">✦ BIENVENIDOS ✦</span>
+                <h1>Consultantes y Aprendices</h1>
+                <p class="hero-desc">Bienvenid@ a este espacio energético donde vas a poder encontrar claridad, guía y transformación.</p>
+                <p class="hero-bio">Soy Camila, dueña de LaCapriTarot, y a través del tarot y distintos trabajos energéticos acompaño procesos personales, ayudándote a entender lo que estás viviendo y a destrabar aquello que no te permite avanzar.</p>
+                <a href="https://wa.me/5493813462047" class="hero-btn-wa">Reservar por WhatsApp</a>
+            </div>
+            <div class="hero-logo-container">
+                <img src="logo-central.png" alt="Logo central" class="main-logo-img">
+            </div>
         </div>
+    </section>
 
-        <div class="info-card">
-            <h3>🔥 VELÓN</h3>
-            <p>Energía intensa y sostenida</p>
+    <div class="lunas-divider">🌑 🌒 🌓 🌔 🌕 🌖 🌗 🌘</div>
 
-            <ul>
-                <li>Bloqueos fuertes</li>
-                <li>Trabajos profundos</li>
-                <li>Mayor duración</li>
-            </ul>
+    <section class="info-section">
+        <div class="info-container">
+            <h2 class="section-title">Información Importante</h2>
+            <p class="section-subtitle">Cada sesión es personalizada y se adapta a las necesidades e intereses de cada consultante.</p>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="card-header">
+                        <span class="icon-title">✨</span>
+                        <h3>VELA (larga)</h3>
+                    </div>
+                    <p class="card-tagline">Energía rápida y puntual</p>
+                    <ul>
+                        <li>Intenciones simples del día a día.</li>
+                        <li>Pedidos suaves o generales.</li>
+                        <li>Trabajos livianos.</li>
+                        <li>Mantener la energía en movimiento.</li>
+                    </ul>
+                    <p class="card-footer-text">Actúa de forma rápida, pero con efectos más cortos en el tiempo.</p>
+                    <img src="vela-izquierda.png" class="vela-img">
+                </div>
 
-            <img src="vela-derecha.png" alt="">
+                <div class="info-card">
+                    <div class="card-header">
+                        <span class="icon-title">🔥</span>
+                        <h3>VELÓN</h3>
+                    </div>
+                    <p class="card-tagline">Energía intensa y sostenida</p>
+                    <ul>
+                        <li>Bloqueos o situaciones estancadas.</li>
+                        <li>Rituales profundos.</li>
+                        <li>Cambios importantes.</li>
+                        <li>Trabajos energéticos intensos.</li>
+                    </ul>
+                    <p class="card-footer-text">Actúa de forma más lenta, pero con mayor profundidad y duración.</p>
+                    <img src="vela-derecha.png" class="vela-img">
+                </div>
+            </div>
+            <p class="info-note">✦ Ambos elementos son efectivos. La diferencia está en la intensidad y duración del trabajo energético. ✦</p>
         </div>
+    </section>
 
-    </div>
-
-</section>
-
-<!-- TRABAJOS -->
-<section id="trabajos">
-
-    <h2 class="section-title">Trabajos Disponibles</h2>
-
-    <div class="trabajos-grid">
-
-        <div class="card">
-            <img src="icon-limpieza.png">
-            <h3>Limpieza Energética</h3>
-            <p>$28.000</p>
+    <section class="trabajos-section" id="trabajos">
+        <h2 class="section-title">Trabajos Disponibles</h2>
+        <h3 class="category-title">✦ Rituales ✦</h3>
+        
+        <div class="trabajos-grid">
+            <div class="ritual-card">
+                <img src="icon-limpieza.png" class="ritual-icon">
+                <h4>Limpieza Energética</h4>
+                <p class="price">$28.000</p>
+            </div>
+            <div class="ritual-card">
+                <img src="icon-abre.png" class="ritual-icon">
+                <h4>Abre Caminos</h4>
+                <p class="price">$20.000</p>
+            </div>
+            </div>
+        
+        <div class="view-all-container">
+            <a href="#" class="view-all-btn">Ver todos los rituales ✦</a>
         </div>
+    </section>
+</main>
 
-        <div class="card">
-            <img src="icon-abre.png">
-            <h3>Abre Caminos</h3>
-            <p>$20.000</p>
-        </div>
-
-        <div class="card">
-            <img src="icon-vinculos.png">
-            <h3>Limpieza de Vínculos</h3>
-            <p>$24.000</p>
-        </div>
-
-        <div class="card">
-            <img src="icon-endulzamiento.png">
-            <h3>Endulzamiento</h3>
-            <p>$22.000</p>
-        </div>
-
-        <div class="card">
-            <img src="icon-abundancia.png">
-            <h3>Abundancia</h3>
-            <p>$18.000</p>
-        </div>
-
-        <div class="card">
-            <img src="icon-estudio.png">
-            <h3>Estudio</h3>
-            <p>$17.000</p>
-        </div>
-
-        <div class="card">
-            <img src="icon-proteccion.png">
-            <h3>Protección</h3>
-            <p>$16.000</p>
-        </div>
-
-        <div class="card">
-            <img src="icon-corte.png">
-            <h3>Corte de Lazos</h3>
-            <p>$24.000</p>
-        </div>
-
-        <div class="card">
-            <img src="icon-retorno.png">
-            <h3>Retorno de Parejas</h3>
-            <p>$24.000</p>
-        </div>
-
-        <div class="card">
-            <img src="icon-sanacion.png">
-            <h3>Sanación Personal</h3>
-            <p>$20.000</p>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- TAROT -->
-<section id="tarot">
-
-    <h2 class="section-title">Lecturas de Tarot</h2>
-
-    <div class="tarot-grid">
-
-        <div class="card">
-            <h3>Lectura General</h3>
-            <p>$18.000</p>
-        </div>
-
-        <div class="card">
-            <h3>Contacto Cero</h3>
-            <p>$9.000</p>
-        </div>
-
-        <div class="card">
-            <h3>Buscando Amor</h3>
-            <p>$8.000</p>
-        </div>
-
-        <div class="card">
-            <h3>Vínculos</h3>
-            <p>$10.000</p>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- CONTACTO -->
-<section id="contacto">
-
-    <h2 class="section-title">Reservá tu consulta</h2>
-
-    <div class="contact-box">
-        <p>Instagram: @lacapritarot</p>
-        <p>WhatsApp: +54 9 381 346-2047</p>
-
-        <a href="https://wa.me/5493813462047" target="_blank">
-            Hablar por WhatsApp
-        </a>
-    </div>
-
-</section>
-
-<!-- BOTON FLOTANTE -->
-<a href="https://wa.me/5493813462047"
-   class="float-whatsapp"
-   target="_blank">
-   💬
+<a href="https://wa.me/5493813462047" class="whatsapp-float">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">
 </a>
 
 <script src="script.js"></script>
-
 </body>
 </html>
